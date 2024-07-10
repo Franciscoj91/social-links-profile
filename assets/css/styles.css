@@ -39,6 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  line-height: 150%;
 }
 
 .card {
@@ -48,6 +49,7 @@ body {
   width: 327px;
   min-height: 579px;
   border-radius: 12px;
+  text-align: center;
 }
 
 .card-avatar {
@@ -59,6 +61,33 @@ body {
 .card-avatar img {
   width: 100%;
   border-radius: 50%;
+}
+
+.card-title {
+  
+  margin-bottom: 1.5rem;
+}
+
+.card-title h2 {
+  font-size: var(--font-size-heading);
+  margin: 0 0 0.25rem;
+  font-weight: 600;
+  padding: 7.5px 0;
+}
+
+.card-title p {
+  color: var(--color-primary);
+  margin: 0;
+  font-weight: 700;
+}
+
+.card-info {
+  margin-bottom: 1.5rem;
+}
+
+.card-info p {
+  margin: 0;
+
 }
 
 
