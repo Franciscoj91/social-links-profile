@@ -34,6 +34,55 @@ body {
   font-weight: 400;
   color: var(--color-white);
   margin: 0;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 1px;
+}
+
+.attribution a {
+  color: var(--color-primary);
+}
+@font-face {
+  font-family: 'Inter';
+  src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+  font-weight: 700;
+}
+
+:root{
+  --color-primary: #C4F82A;
+  --color-white: #FFFFFF;
+  --color-grey: #333333;
+  --color-dark-grey: #1F1F1F;
+  --color-black: #141414;
+  --font-size-heading: 1.5rem;
+  --font-size-body: 0.875rem;
+
+}
+
+body {
+  background-color: var(--color-black);
+  font-size: var(--font-size-body);
+  font-family: 'Inter';
+  font-weight: 400;
+  color: var(--color-white);
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
