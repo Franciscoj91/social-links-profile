@@ -34,6 +34,20 @@ body {
   font-weight: 400;
   color: var(--color-white);
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  box-sizing: border-box;
+  background-color: var(--color-dark-grey);
+  padding: 1.5rem;
+  width: 327px;
+  min-height: 579px;
+  border-radius: 12px;
 }
 
 
