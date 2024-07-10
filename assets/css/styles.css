@@ -90,6 +90,26 @@ body {
 
 }
 
+.card-links a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  background-color: var(--color-grey);
+  margin-bottom: 1rem;
+  padding: 12px 0;
+  border-radius: 8px;
+}
+
+.card-links a:hover {
+  background-color: var(--color-primary);
+  color: var(--color-grey);
+}
+
+.card-links a:last-child{
+  margin: 0;
+}
+
 
 .attribution {
   font-size: 11px;
@@ -100,4 +120,11 @@ body {
 
 .attribution a {
   color: var(--color-primary);
+}
+
+@media (min-width: 992px) {
+  .card {
+    min-height: 611px;
+    padding: 2.5rem;
+  }
 }
