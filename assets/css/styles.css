@@ -124,6 +124,7 @@ body {
 
 @media (min-width: 992px) {
   .card {
+    width: 384px;
     min-height: 611px;
     padding: 2.5rem;
   }
